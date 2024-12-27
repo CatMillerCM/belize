@@ -16,6 +16,9 @@
 .manatee {
   top: 80%;
   left: 200dvw;
+}
+
+.manatee.animate {
   animation: manatee 5s ease-in-out infinite;
 }
 
@@ -44,6 +47,9 @@
 .turtle {
   top: 70%;
   left: 250dvw;
+}
+
+.turtle.animate {
   animation: turtle 6s ease-in-out forwards;
 }
 
@@ -64,12 +70,18 @@
 .barracuda {
   top: 35%;
   left: 600dvw;
+}
+
+.barracuda.animate {
   animation: linear-swim 8s ease-in-out forwards;
 }
 
 .starfish {
   bottom: 0;
   left: 50dvw;
+}
+
+.starfish.animate {
   animation: starfish 5s linear infinite;
 }
 
@@ -98,6 +110,9 @@
 .seahorse {
   top: 5%;
   left: 750dvw;
+}
+
+.seahorse.animate {
   animation: starfish 3s linear infinite;
 }
 
@@ -126,6 +141,9 @@
 .stingray {
   top: 55%;
   left: 100dvw;
+}
+
+.stingray.animate {
   animation: stingray 3s linear forwards;
 }
 
@@ -145,6 +163,9 @@
 .mantaRay {
   top: 15%;
   left: 800dvw;
+}
+
+.mantaRay.animate {
   animation: manta-ray 10s linear forwards;
 }
 
@@ -159,6 +180,9 @@
 .eagleRay {
   top: 10%;
   left: 650dvw;
+}
+
+.eagleRay.animate {
   animation: eagle-ray 8s linear forwards;
 }
 
@@ -174,6 +198,9 @@
 .reefShark {
   top: 20%;
   left: 400dvw;
+}
+
+.reefShark.animate {
   animation: linear-swim 8s ease-in-out forwards;
 }
 
@@ -187,12 +214,18 @@
 .otherShark {
   top: 30%;
   left: 700dvw;
+}
+
+.otherShark.animate {
   animation: linear-swim 12s ease-in-out forwards;
 }
 
 .eel {
   bottom: 2%;
   left: 500dvw;
+}
+
+.eel.animate {
   animation: eel 4s ease-in-out infinite;
 }
 
@@ -209,7 +242,10 @@
 .fish1 {
   top: 75%;
   left: 350dvw;
-  animation: fish1 5s linear infinite;
+}
+
+.fish1.animate {
+  animation: fish1 5s linear forwards;
 }
 
 @keyframes fish1 {
@@ -240,6 +276,9 @@
 .fish2 {
   top: 25%;
   left: 150dvw;
+}
+
+.fish2.animate {
   animation: fish2 3s linear forwards;
 }
 
@@ -271,6 +310,9 @@
 .fish3 {
   top: 60%;
   left: 550dvw;
+}
+
+.fish3.animate {
   animation: fish3 8s linear forwards;
 }
 
@@ -300,5 +342,8 @@
 .fish4 {
   top: 45%;
   left: 850dvw;
+}
+
+.fish4.animate {
   animation: linear-swim 8s ease-in-out forwards;
 }
