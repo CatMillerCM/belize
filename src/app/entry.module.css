@@ -1,0 +1,89 @@
+.main {
+  background: linear-gradient(217deg, #c4e6ff, #074f83 70.71%),
+  linear-gradient(127deg, #81ccc8, #006560 70.71%),
+  linear-gradient(336deg, #74aad1, #eefffe 70.71%);
+  height: 100dvh;
+  width: 900dvw;
+}
+
+.main p {
+  position: absolute;
+  color: white;
+  border: 2px solid white;
+  padding: 1rem;
+}
+
+.manatee {
+  top: 80%;
+  left: 200dvw;
+}
+
+.turtle {
+  top: 70%;
+  left: 250dvw;
+}
+
+.barracuda {
+  top: 35%;
+  left: 600dvw;
+}
+
+.starfish {
+  bottom: 0;
+  left: 50dvw;
+}
+
+.seahorse {
+  top: 5%;
+  left: 750dvw;
+}
+
+.stingray {
+  top: 55%;
+  left: 100dvw;
+}
+
+.mantaRay {
+  top: 15%;
+  left: 800dvw;
+}
+
+.eagleRay {
+  top: 10%;
+  left: 650dvw;
+}
+
+.reefShark {
+  top: 20%;
+  left: 400dvw;
+}
+
+.otherShark {
+  top: 30%;
+  left: 700dvw;
+}
+
+.eel {
+  bottom: 2%;
+  left: 500dvw;
+}
+
+.fish1 {
+  top: 75%;
+  left: 350dvw;
+}
+
+.fish2 {
+  top: 25%;
+  left: 150dvw;
+}
+
+.fish3 {
+  top: 60%;
+  left: 550dvw;
+}
+
+.fish4 {
+  top: 45%;
+  left: 850dvw;
+}
