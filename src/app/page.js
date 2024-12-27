@@ -5,21 +5,21 @@ import styles from './entry.module.css';
 
 const Page = () => {
   const animals = [
-    'manatee',
-    'turtle',
+    'angelfish',
     'barracuda',
-    'starfish',
-    'seahorse',
-    'stingray',
-    'mantaRay',
+    'blueParrotfish',
     'eagleRay',
-    'reefShark',
-    'otherShark',
     'eel',
-    'fish1',
-    'fish2',
-    'fish3',
-    'fish4'
+    'manatee',
+    'mantaRay',
+    'nurseShark',
+    'rainbowParrotfish',
+    'reefShark',
+    'seahorse',
+    'starfish',
+    'stingray',
+    'tarpon',
+    'turtle'
   ];
 
   return (
