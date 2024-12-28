@@ -6,16 +6,16 @@
   width: 900dvw;
 }
 
-.main p {
+.main img {
   position: absolute;
-  color: white;
-  border: 2px solid white;
-  padding: 1rem;
+  filter: drop-shadow(30px 10px 4px #4444dd);
 }
 
 .angelfish {
-  top: 60%;
-  left: 550dvw;
+  top: 25dvh;
+  left: 450dvw;
+  width: auto;
+  height: 12rem;
 }
 
 .angelfish.animate {
@@ -31,7 +31,7 @@
     transform: translateY(10px);
   }
 
-  25% {
+  37% {
     transform: translateY(15px);
   }
 
@@ -40,57 +40,71 @@
   }
 
   100% {
-    left: 0;
+    left: -50dvw;
     display: none;
   }
 }
 
 .barracuda {
-  top: 35%;
-  left: 600dvw;
+  top: 35dvh;
+  left: 540dvw;
+  transform: scale(-1, 1) rotate(24deg);
 }
 
 .barracuda.animate {
-  animation: linear-swim 8s ease-in-out forwards;
+  animation: linear-swim 8s linear forwards;
 }
 
-.blueParrotfish {
-  top: 25%;
-  left: 150dvw;
+@keyframes linear-swim {
+  100% {
+    left: -50dvw;
+    display: none;
+  }
 }
 
-.blueParrotfish.animate {
-  animation: blueParrotfish 3s linear forwards;
+.blueTang {
+  top: 25dvh;
+  left: 180dvw;
+  width: auto;
+  height: 10rem;
+  transform: scale(-1, 1);
 }
 
-@keyframes blueParrotfish {
+.blueTang.animate {
+  animation: blueTang 3s linear forwards;
+}
+
+@keyframes blueTang {
   12% {
-    transform: rotate(-25deg);
+    transform: rotate(-10deg) scale(-1, 1);
   }
 
   25% {
-    transform: rotate(0);
-    top: 45%
+    transform: rotate(0) scale(-1, 1);
+    top: 35dvh;
   }
 
-  25% {
-    transform: rotate(25deg);
+  37% {
+    transform: rotate(10deg) scale(-1, 1);
   }
 
   50% {
-    transform: rotate(0);
-    top: 40%;
+    transform: rotate(0) scale(-1, 1);
+    top: 30dvh;
   }
 
   100% {
-    left: 0;
+    left: -20dvh;
     display: none;
   }
 }
 
 .eagleRay {
-  top: 10%;
-  left: 650dvw;
+  top: 50dvh;
+  left: 350dvw;
+  width: auto;
+  height: 14rem;
+  transform: scale(-1, 1);
 }
 
 .eagleRay.animate {
@@ -99,25 +113,27 @@
 
 @keyframes eagle-ray {
   100% {
-    transform: rotate(-10deg);
-    top: 30%;
+    transform: rotate(-10deg) scale(-1, 1);
+    top: 10dvh;
     left: 0;
     display: none;
   }
 }
 
 .eel {
-  bottom: 2%;
-  left: 500dvw;
+  bottom: -2dvh;
+  left: 350dvw;
+  width: auto;
+  height: 9rem;
 }
 
 .eel.animate {
-  animation: eel 4s ease-in-out infinite;
+  animation: eel 2.5s linear infinite;
 }
 
 @keyframes eel {
   50% {
-    transform: translateX(50px);
+    transform: translateX(50px) scale(1.2, 0.9);
   }
 
   100% {
@@ -126,8 +142,10 @@
 }
 
 .manatee {
-  top: 80%;
-  left: 200dvw;
+  left: 190dvw;
+  height: 10rem;
+  width: auto;
+  top: 73dvh;
 }
 
 .manatee.animate {
@@ -157,8 +175,8 @@
 }
 
 .mantaRay {
-  top: 15%;
-  left: 800dvw;
+  top: 15dvh;
+  left: 650dvw;
 }
 
 .mantaRay.animate {
@@ -168,66 +186,40 @@
 @keyframes manta-ray {
   100% {
     transform: rotate(5deg);
-    left: 0;
+    top: 40dvh;
+    left: -50dvw;
     display: none;
   }
 }
 
 .nurseShark {
-  top: 30%;
-  left: 700dvw;
+  top: 45dvh;
+  left: 480dvw;
+  transform: rotate(20deg);
+  width: auto;
+  height: 25rem;
 }
 
 .nurseShark.animate {
-  animation: linear-swim 12s ease-in-out forwards;
+  animation: linear-swim 12s linear forwards;
 }
 
-.rainbowParrotfish {
-  top: 45%;
-  left: 850dvw;
+.parrotfish {
+  top: 45dvh;
+  left: 700dvw;
+  width: auto;
+  height: 7rem;
 }
 
-.rainbowParrotfish.animate {
-  animation: rainbowParrotfish 8s ease-in-out forwards;
-}
-
-@keyframes rainbowParrotfish {
-  12% {
-    transform: rotate(25deg);
-  }
-
-  25% {
-    transform: rotate(0);
-    top: 45%
-  }
-
-  37% {
-    transform: rotate(-25deg);
-  }
-
-  50% {
-    transform: rotate(0);
-    top: 65%;
-  }
-
-  100% {
-    left: 0;
-    display: none;
-  }
-}
-
-.reefShark {
-  top: 20%;
-  left: 400dvw;
-}
-
-.reefShark.animate {
-  animation: linear-swim 8s ease-in-out forwards;
+.parrotfish.animate {
+  animation: linear-swim 8s linear forwards;
 }
 
 .seahorse {
-  top: 5%;
-  left: 750dvw;
+  top: 5dvh;
+  left: 600dvw;
+  width: auto;
+  height: 7rem;
 }
 
 .seahorse.animate {
@@ -258,7 +250,9 @@
 
 .starfish {
   bottom: 0;
-  left: 50dvw;
+  left: 30dvh;
+  height: 6rem;
+  width: auto;
 }
 
 .starfish.animate {
@@ -288,8 +282,11 @@
 }
 
 .stingray {
-  top: 55%;
-  left: 100dvw;
+  top: 55dvh;
+  left: 110dvw;
+  transform: rotate(30deg) scale(-1, 1);
+  width: auto;
+  height: 18rem;
 }
 
 .stingray.animate {
@@ -298,57 +295,23 @@
 
 @keyframes stingray {
   60% {
-    top: 45%;
+    top: 45dvh;
   }
 
   100% {
-    transform: rotate(5deg);
-    top: 35%;
-    left: 0;
-    display: none;
-  }
-}
-
-.tarpon {
-  top: 75%;
-  left: 350dvw;
-}
-
-.tarpon.animate {
-  animation: tarpon 5s linear forwards;
-}
-
-@keyframes tarpon {
-  12% {
-    transform: rotate(25deg);
-  }
-
-  40% {
-    transform: rotate(5deg);
-    top: 10%;
-  }
-
-  50% {
-    transform: rotate(0);
-    top: 0;
-  }
-
-  60% {
-    transform: rotate(-5deg);
-    top: 10%;
-  }
-
-  100% {
-    transform: rotate(0);
-    top: 75%;
-    left: 0;
+    transform: rotate(35deg) scale(-1, 1);
+    top: 35dvh;
+    left: -45dvh;
     display: none;
   }
 }
 
 .turtle {
-  top: 70%;
-  left: 250dvw;
+  top: 50dvh;
+  left: 280dvw;
+  width: auto;
+  height: 8rem;
+  transform: scale(-1, 1);
 }
 
 .turtle.animate {
@@ -357,21 +320,14 @@
 
 @keyframes turtle {
   60% {
-    transform: rotate(15deg);
-    top: 20%;
+    transform: rotate(15deg) scale(-1, 1);
+    top: 20dvh;
   }
 
   100% {
-    transform: rotate(5deg);
-    top: 20%;
-    left: 0;
-    display: none;
-  }
-}
-
-@keyframes linear-swim {
-  100% {
-    left: 0;
+    transform: rotate(5deg) scale(-1, 1);
+    top: 20dvh;
+    left: -50dvw;
     display: none;
   }
 }
