@@ -25,17 +25,19 @@ const Page = () => {
   return (
     <main className={styles.main}>
       {animals.map((animal) => {
-        const [ref, inView] = useInView({ threshold: 0.25, triggerOnce: true });
+        const [ref, inView] = useInView({ threshold: 0.1, triggerOnce: true });
 
         return (
-          <Image
+          <div 
             key={animal}
-            ref={ref}
             className={`${styles[animal]} ${inView ? styles.animate : ''}`}
-            src={animalImages[animal]}
-            alt={animal}
+            ref={ref}
           >
-          </Image>
+            <Image
+              src={animalImages[animal]}
+              alt={animal}
+            />
+          </div>
         );
       })}
     </main>
