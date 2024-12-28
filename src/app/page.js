@@ -1,24 +1,24 @@
 'use client';
 
+import Image from 'next/image';
 import { useInView } from 'react-intersection-observer';
+import { animalImages } from '@/assets';
 import styles from './entry.module.css';
 
 const Page = () => {
   const animals = [
     'angelfish',
     'barracuda',
-    'blueParrotfish',
+    'blueTang',
     'eagleRay',
     'eel',
     'manatee',
     'mantaRay',
     'nurseShark',
-    'rainbowParrotfish',
-    'reefShark',
+    'parrotfish',
     'seahorse',
     'starfish',
     'stingray',
-    'tarpon',
     'turtle'
   ];
 
@@ -28,13 +28,14 @@ const Page = () => {
         const [ref, inView] = useInView({ threshold: 0.25, triggerOnce: true });
 
         return (
-          <p
+          <Image
             key={animal}
             ref={ref}
             className={`${styles[animal]} ${inView ? styles.animate : ''}`}
+            src={animalImages[animal]}
+            alt={animal}
           >
-            {animal}
-          </p>
+          </Image>
         );
       })}
     </main>
