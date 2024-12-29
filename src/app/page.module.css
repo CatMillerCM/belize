@@ -27,7 +27,7 @@
 
 .arrow {
   top: 43dvh;
-  left: 12dvw;
+  left: 10dvw;
   width: 10rem;
   height: auto;
   animation: arrow 3s linear infinite;
@@ -374,6 +374,10 @@
 }
 
 @media screen and (min-width: 768px) {
+  .arrow {
+    top: 30dvh;
+  }
+
   .angelfish.animate {
     animation: angelfish 24s linear forwards;
   }
