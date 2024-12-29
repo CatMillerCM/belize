@@ -25,6 +25,24 @@
   cursor: pointer;
 }
 
+.arrow {
+  top: 43dvh;
+  left: 12dvw;
+  width: 10rem;
+  height: auto;
+  animation: arrow 3s linear infinite;
+}
+
+@keyframes arrow {
+  50% {
+    transform: translateX(50px) scale(1.2, 0.9);
+  }
+
+  100% {
+    transform: translateX(0);
+  }
+}
+
 .main img {
   width: 100%;
   height: 100%;

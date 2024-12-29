@@ -1,4 +1,5 @@
 import angelfish from './angelfish.png';
+import arrowImage from './arrow.png';
 import barracuda from './barracuda.png';
 import blueTang from './blue-tang.png';
 import eagleRay from './eagle-ray.png';
@@ -35,5 +36,4 @@ const signImages = {
   signSwimAgain
 }
 
-
-export { animalImages, signImages };
+export { animalImages, arrowImage, signImages };

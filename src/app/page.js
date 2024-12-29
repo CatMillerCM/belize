@@ -2,7 +2,7 @@
 
 import Image from 'next/image';
 import { useInView } from 'react-intersection-observer';
-import { animalImages, signImages } from '@/assets';
+import { animalImages, arrowImage, signImages } from '@/assets';
 import styles from './page.module.css';
 
 const animals = [
@@ -24,6 +24,12 @@ const animals = [
 const Page = () => {
   return (
     <main className={styles.main}>
+      <div className={styles.arrow}>
+        <Image
+          src={arrowImage}
+          alt="Arrow pointing right"
+        />
+      </div>
       <div className={styles.goSlow}>
         <Image
           src={signImages.signGoSlow}
