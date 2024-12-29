@@ -22,11 +22,6 @@ const animals = [
 ];
 
 const Page = () => {
-  const handleSwimAgain = () => {
-    const goSlowSign = document.querySelector(`.${styles.goSlow}`);
-    goSlowSign.scrollIntoView({ behavior: 'smooth' });
-  }
-
   return (
     <main className={styles.main}>
       <div className={styles.goSlow}>
@@ -55,7 +50,7 @@ const Page = () => {
         <Image
           src={signImages.signSwimAgain}
           alt="Sign post that reads: Click to swim again"
-          onClick={handleSwimAgain}
+          onClick={() => window.location.reload()}
         />
       </div>
     </main>
