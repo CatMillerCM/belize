@@ -18,8 +18,8 @@
 .angelfish {
   top: 25dvh;
   left: 620dvw;
-  width: auto;
-  height: 12rem;
+  width: 12rem;
+  height: auto;
 }
 
 .angelfish.animate {
@@ -52,6 +52,8 @@
 .barracuda {
   top: 35dvh;
   left: 950dvw;
+  height: auto;
+  width: 11rem;
 }
 
 .barracuda.animate {
@@ -68,8 +70,8 @@
 .blueTang {
   top: 25dvh;
   left: 210dvw;
-  width: auto;
-  height: 8rem;
+  width: 8rem;
+  height: auto;
 }
 
 .blueTang.animate {
@@ -104,8 +106,8 @@
 .eagleRay {
   top: 50dvh;
   left: 460dvw;
-  width: auto;
-  height: 14rem;
+  width: 21rem;
+  height: auto;
 }
 
 .eagleRay.animate {
@@ -124,8 +126,8 @@
 .eel {
   bottom: -1dvh;
   left: 520dvw;
-  width: auto;
-  height: 9rem;
+  width: 16rem;
+  height: auto;
 }
 
 .eel.animate {
@@ -144,8 +146,8 @@
 
 .manatee {
   left: 250dvw;
-  height: 10rem;
-  width: auto;
+  height: auto;
+  width: 17rem;
   top: 64dvh;
 }
 
@@ -178,8 +180,8 @@
 .mantaRay {
   top: 15dvh;
   left: 820dvw;
-  height: 10rem;
-  width: auto;
+  height: auto;
+  width: 13rem;
 }
 
 .mantaRay.animate {
@@ -198,8 +200,8 @@
 .nurseShark {
   top: 45dvh;
   left: 680dvw;
-  width: auto;
-  height: 10rem;
+  width: 30rem;
+  height: auto;
 }
 
 .nurseShark.animate {
@@ -209,8 +211,8 @@
 .parrotfish {
   top: 45dvh;
   left: 870dvw;
-  width: auto;
-  height: 7rem;
+  width: 11rem;
+  height: auto;
 }
 
 .parrotfish.animate {
@@ -220,8 +222,8 @@
 .seahorse {
   top: 10dvh;
   left: 900dvw;
-  width: auto;
-  height: 7rem;
+  width: 6.5rem;
+  height: auto;
 }
 
 .seahorse.animate {
@@ -253,8 +255,8 @@
 .starfish {
   bottom: 0.5dvh;
   left: 17dvh;
-  height: 6rem;
-  width: auto;
+  height: auto;
+  width: 10rem;
   position: relative;
 }
 
@@ -287,8 +289,8 @@
 .stingray {
   top: 55dvh;
   left: 140dvw;
-  width: auto;
-  height: 18rem;
+  width: 18rem;
+  height: auto;
 }
 
 .stingray.animate {
@@ -310,8 +312,8 @@
 .turtle {
   top: 50dvh;
   left: 380dvw;
-  width: auto;
-  height: 8rem;
+  width: 14rem;
+  height: auto;
 }
 
 .turtle.animate {
