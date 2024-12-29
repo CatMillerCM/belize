@@ -139,7 +139,7 @@
 }
 
 .eel {
-  bottom: -1.5dvh;
+  bottom: -2dvh;
   left: 530dvw;
   width: 16rem;
   height: auto;
@@ -276,7 +276,7 @@
 
 .starfish {
   bottom: 0.5dvh;
-  left: 810dvw;
+  left: 850dvw;
   width: 10rem;
   height: auto;
 }
