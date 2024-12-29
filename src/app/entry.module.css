@@ -3,11 +3,26 @@
   background-color: #78d6f0;
   background-size: contain;
   height: 100dvh;
-  width: 1000dvw;
+  width: 1050dvw;
 }
 
 .main div {
   position: absolute;
+}
+
+.goSlow, .swimAgain {
+  bottom: -4dvh;
+  width: 16rem;
+  height: auto;
+}
+
+.goSlow {
+  left: 0;
+}
+
+.swimAgain {
+  left: 980dvw;
+  cursor: pointer;
 }
 
 .main img {
@@ -51,7 +66,7 @@
 
 .barracuda {
   top: 35dvh;
-  left: 950dvw;
+  left: 1000dvw;
   height: auto;
   width: 12.5rem;
 }
@@ -179,7 +194,7 @@
 
 .mantaRay {
   top: 15dvh;
-  left: 820dvw;
+  left: 880dvw;
   height: auto;
   width: 13rem;
 }
@@ -210,7 +225,7 @@
 
 .parrotfish {
   top: 45dvh;
-  left: 870dvw;
+  left: 920dvw;
   width: 11rem;
   height: auto;
 }
@@ -221,7 +236,7 @@
 
 .seahorse {
   top: 10dvh;
-  left: 900dvw;
+  left: 970dvw;
   width: 6.5rem;
   height: auto;
 }
@@ -254,7 +269,7 @@
 
 .starfish {
   bottom: 0.5dvh;
-  left: 17dvh;
+  left: 790dvw;
   height: auto;
   width: 10rem;
   position: relative;
@@ -288,7 +303,7 @@
 
 .stingray {
   top: 55dvh;
-  left: 140dvw;
+  left: 120dvw;
   width: 18rem;
   height: auto;
 }
