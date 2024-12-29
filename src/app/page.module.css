@@ -67,7 +67,7 @@
 .barracuda {
   top: 35dvh;
   left: 1000dvw;
-  width: 12.5rem;
+  width: 13rem;
   height: auto;
 }
 
@@ -133,14 +133,14 @@
   100% {
     transform: rotate(-10deg);
     top: 10dvh;
-    left: -50dvw;
+    left: -100dvw;
     display: none;
   }
 }
 
 .eel {
-  bottom: -1dvh;
-  left: 520dvw;
+  bottom: -1.5dvh;
+  left: 530dvw;
   width: 16rem;
   height: auto;
 }
@@ -220,7 +220,14 @@
 }
 
 .nurseShark.animate {
-  animation: linear-swim 23s linear forwards;
+  animation: nurse-shark 24s linear forwards;
+}
+
+@keyframes nurse-shark {
+  100% {
+    left: -120dvw;
+    display: none;
+  }
 }
 
 .parrotfish {
@@ -269,7 +276,7 @@
 
 .starfish {
   bottom: 0.5dvh;
-  left: 790dvw;
+  left: 810dvw;
   width: 10rem;
   height: auto;
 }
@@ -370,7 +377,7 @@
   }
 
   .nurseShark.animate {
-    animation: linear-swim 46s linear forwards;
+    animation: nurse-shark 48s linear forwards;
   }
 
   .parrotfish.animate {
