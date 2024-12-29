@@ -2,7 +2,7 @@
 
 import Image from 'next/image';
 import { useInView } from 'react-intersection-observer';
-import { animalImages } from '@/assets';
+import { animalImages, signImages } from '@/assets';
 import styles from './entry.module.css';
 
 const Page = () => {
@@ -22,8 +22,19 @@ const Page = () => {
     'turtle'
   ];
 
+  const handleSwimAgain = () => {
+    const goSlowSign = document.querySelector(`.${styles.goSlow}`);
+    goSlowSign.scrollIntoView({ behavior: 'smooth' });
+  }
+
   return (
     <main className={styles.main}>
+      <div className={styles.goSlow}>
+        <Image
+          src={signImages.signGoSlow}
+          alt="Sign post that reads: Remember to go slow"
+        />
+      </div>
       {animals.map((animal) => {
         const [ref, inView] = useInView({ threshold: 0.1, triggerOnce: true });
 
@@ -40,6 +51,13 @@ const Page = () => {
           </div>
         );
       })}
+      <div className={styles.swimAgain}>
+        <Image
+          src={signImages.signSwimAgain}
+          alt="Sign post that reads: Click to swim again"
+          onClick={handleSwimAgain}
+        />
+      </div>
     </main>
   );
 };
