@@ -8,6 +8,8 @@ import mantaRay from './manta-ray.png';
 import nurseShark from './nurse-shark.png';
 import parrotfish from './parrotfish.png';
 import seahorse from './seahorse.png';
+import signGoSlow from './sign-go-slow.png';
+import signSwimAgain from './sign-swim-again.png';
 import starfish from './starfish.png';
 import stingray from './stingray.png';
 import turtle from './turtle.png';
@@ -28,5 +30,10 @@ const animalImages = {
   turtle  
 };
 
+const signImages = {
+  signGoSlow,
+  signSwimAgain
+}
 
-export { animalImages };
+
+export { animalImages, signImages };
