@@ -24,41 +24,35 @@ const animals = [
 const Page = () => {
   return (
     <main className={styles.main}>
-      <div className={styles.arrow}>
-        <Image
-          src={arrowImage}
-          alt="Arrow pointing right"
-        />
-      </div>
-      <div className={styles.goSlow}>
-        <Image
-          src={signImages.signGoSlow}
-          alt="Sign post that reads: Remember to go slow"
-        />
-      </div>
+      <Image
+        className={styles.arrow}
+        src={arrowImage}
+        alt="Arrow pointing right"
+      />
+      <Image
+        className={styles.goSlow}
+        src={signImages.signGoSlow}
+        alt="Sign post that reads: Remember to go slow"
+      />
       {animals.map((animal) => {
         const [ref, inView] = useInView({ threshold: 0.1, triggerOnce: true });
 
         return (
-          <div 
+          <Image
             key={animal}
-            className={`${styles[animal]} ${inView ? styles.animate : ''}`}
+            className={`${styles.animal} ${styles[animal]} ${inView ? styles.animate : ''}`}
             ref={ref}
-          >
-            <Image
-              src={animalImages[animal]}
-              alt={animal}
-            />
-          </div>
+            src={animalImages[animal]}
+            alt={animal}
+          />
         );
       })}
-      <div className={styles.swimAgain}>
-        <Image
-          src={signImages.signSwimAgain}
-          alt="Sign post that reads: Click to swim again"
-          onClick={() => window.location.reload()}
-        />
-      </div>
+      <Image
+        className={styles.swimAgain}
+        src={signImages.signSwimAgain}
+        alt="Sign post that reads: Click to swim again"
+        onClick={() => window.location.reload()}
+      />
     </main>
   );
 };
