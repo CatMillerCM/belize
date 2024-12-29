@@ -53,7 +53,7 @@
   top: 35dvh;
   left: 950dvw;
   height: auto;
-  width: 11rem;
+  width: 12.5rem;
 }
 
 .barracuda.animate {
@@ -98,7 +98,7 @@
   }
 
   100% {
-    left: -20dvh;
+    left: -50dvh;
     display: none;
   }
 }
@@ -118,7 +118,7 @@
   100% {
     transform: rotate(-10deg);
     top: 10dvh;
-    left: 0;
+    left: -50dvw;
     display: none;
   }
 }
@@ -304,7 +304,7 @@
 
   100% {
     top: 35dvh;
-    left: -45dvh;
+    left: -50dvh;
     display: none;
   }
 }
@@ -331,5 +331,43 @@
     top: 20dvh;
     left: -50dvw;
     display: none;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .angelfish.animate {
+    animation: angelfish 24s linear forwards;
+  }
+
+  .barracuda.animate {
+    animation: linear-swim 42s linear forwards;
+  }
+
+  .blueTang.animate {
+    animation: blueTang 12s linear forwards;
+  }
+
+  .eagleRay.animate {
+    animation: eagle-ray 16s linear forwards;
+  }
+
+  .mantaRay.animate {
+    animation: manta-ray 28s linear forwards;
+  }
+
+  .nurseShark.animate {
+    animation: linear-swim 46s linear forwards;
+  }
+
+  .parrotfish.animate {
+    animation: linear-swim 24s linear forwards;
+  }
+
+  .stingray.animate {
+    animation: stingray 8s linear forwards;
+  }
+
+  .turtle.animate {
+    animation: turtle 12s ease-in-out forwards;
   }
 }
