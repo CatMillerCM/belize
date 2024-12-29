@@ -2,8 +2,8 @@ import { GoogleAnalytics } from "@next/third-parties/google";
 import "./globals.css";
 
 export const metadata = {
-  title: "",
-  description: "",
+  title: "SeaSS",
+  description: "Come on a journey through Belize's caye corals thanks to animal animations!",
   icons: {
     icon: '/favicon.ico'
   },
