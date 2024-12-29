@@ -56,7 +56,7 @@
 }
 
 .angelfish.animate {
-  animation: angelfish 12s linear forwards;
+  animation: angelfish 20s linear forwards;
 }
 
 @keyframes angelfish {
@@ -90,7 +90,7 @@
 }
 
 .barracuda.animate {
-  animation: linear-swim 22s linear forwards;
+  animation: linear-swim 30s linear forwards;
 }
 
 @keyframes linear-swim {
@@ -108,7 +108,7 @@
 }
 
 .blueTang.animate {
-  animation: blueTang 6s linear forwards;
+  animation: blueTang 12s linear forwards;
 }
 
 @keyframes blueTang {
@@ -144,7 +144,7 @@
 }
 
 .eagleRay.animate {
-  animation: eagle-ray 8s linear forwards;
+  animation: eagle-ray 16s linear forwards;
 }
 
 @keyframes eagle-ray {
@@ -218,7 +218,7 @@
 }
 
 .mantaRay.animate {
-  animation: manta-ray 14s linear forwards;
+  animation: manta-ray 20s linear forwards;
 }
 
 @keyframes manta-ray {
@@ -238,7 +238,7 @@
 }
 
 .nurseShark.animate {
-  animation: nurse-shark 24s linear forwards;
+  animation: nurse-shark 35s linear forwards;
 }
 
 @keyframes nurse-shark {
@@ -256,7 +256,7 @@
 }
 
 .parrotfish.animate {
-  animation: linear-swim 12s linear forwards;
+  animation: linear-swim 20s linear forwards;
 }
 
 .seahorse {
@@ -333,7 +333,7 @@
 }
 
 .stingray.animate {
-  animation: stingray 4s linear forwards;
+  animation: stingray 13s linear forwards;
 }
 
 @keyframes stingray {
@@ -356,7 +356,7 @@
 }
 
 .turtle.animate {
-  animation: turtle 6s ease-in-out forwards;
+  animation: turtle 10s ease-in-out forwards;
 }
 
 @keyframes turtle {
@@ -375,38 +375,38 @@
 
 @media screen and (min-width: 768px) {
   .angelfish.animate {
-    animation: angelfish 24s linear forwards;
+    animation: angelfish 40s linear forwards;
   }
 
   .barracuda.animate {
-    animation: linear-swim 42s linear forwards;
+    animation: linear-swim 60s linear forwards;
   }
 
   .blueTang.animate {
-    animation: blueTang 12s linear forwards;
+    animation: blueTang 24s linear forwards;
   }
 
   .eagleRay.animate {
-    animation: eagle-ray 16s linear forwards;
+    animation: eagle-ray 32s linear forwards;
   }
 
   .mantaRay.animate {
-    animation: manta-ray 28s linear forwards;
+    animation: manta-ray 40s linear forwards;
   }
 
   .nurseShark.animate {
-    animation: nurse-shark 48s linear forwards;
+    animation: nurse-shark 70s linear forwards;
   }
 
   .parrotfish.animate {
-    animation: linear-swim 24s linear forwards;
+    animation: linear-swim 40s linear forwards;
   }
 
   .stingray.animate {
-    animation: stingray 8s linear forwards;
+    animation: stingray 26s linear forwards;
   }
 
   .turtle.animate {
-    animation: turtle 12s ease-in-out forwards;
+    animation: turtle 20s ease-in-out forwards;
   }
 }
