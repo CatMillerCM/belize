@@ -3,25 +3,25 @@
 import Image from 'next/image';
 import { useInView } from 'react-intersection-observer';
 import { animalImages, signImages } from '@/assets';
-import styles from './entry.module.css';
+import styles from './page.module.css';
+
+const animals = [
+  'angelfish',
+  'barracuda',
+  'blueTang',
+  'eagleRay',
+  'eel',
+  'manatee',
+  'mantaRay',
+  'nurseShark',
+  'parrotfish',
+  'seahorse',
+  'starfish',
+  'stingray',
+  'turtle'
+];
 
 const Page = () => {
-  const animals = [
-    'angelfish',
-    'barracuda',
-    'blueTang',
-    'eagleRay',
-    'eel',
-    'manatee',
-    'mantaRay',
-    'nurseShark',
-    'parrotfish',
-    'seahorse',
-    'starfish',
-    'stingray',
-    'turtle'
-  ];
-
   const handleSwimAgain = () => {
     const goSlowSign = document.querySelector(`.${styles.goSlow}`);
     goSlowSign.scrollIntoView({ behavior: 'smooth' });
