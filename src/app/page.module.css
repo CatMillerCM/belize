@@ -8,6 +8,7 @@
 
 .main div {
   position: absolute;
+  pointer-events: none;
 }
 
 .goSlow, .swimAgain {
